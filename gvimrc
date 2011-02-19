@@ -50,9 +50,6 @@ endif
 " Start without the toolbar
 set guioptions-=T
 
-" Default gui color scheme
-color ir_black
-
 " ConqueTerm wrapper
 function StartTerm()
   execute 'ConqueTerm ' . $SHELL . ' --login'
